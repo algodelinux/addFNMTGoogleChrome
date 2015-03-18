@@ -6,12 +6,14 @@ Tomando como modelo el script addFNMTfirefox, he creado este nuevo script addFNM
 
 Lo primero que hace el script es instalar el paquete libnss3-utils para disponer del comando certutil, si no se encuentra instalado aún.
 
-He definido las siguientes variables en el script:
-certificateFile="FNMTClase2CA_FNMT_ES.pem"
-certificateName="FNMT Clase 2 CA - FNMT"
-certificateDB="cert8.db"
-homeDir="/home"
-depthDir=3
+He definido las siguientes variables en el script:  
+certificateFile="FNMTClase2CA_FNMT_ES.pem"  
+certificateName="FNMT Clase 2 CA - FNMT"  
+certificateRootFile="ACRAIZFNMTRCM.crt"  
+certificateRootName="AC RAIZ FNMT-RCM"  
+certificateDB="cert9.db"  
+homeDir="/home"  
+depthDir=3  
 
 Podéis modificarlas de acuerdo con vuestras necesidades.
 
